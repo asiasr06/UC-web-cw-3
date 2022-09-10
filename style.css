@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&display=swap');
+@keyframes icon-animation {
+    0%   {width: 100px; height: 100px; background: purple; border-radius: 50%}
+    25%  {width: 75px; height: 75px; background: red; border-radius: 50%}
+    50%  {width: 50px; height: 50px; background: pink; border-radius: 50%}
+    100%  {width: 25px; height: 25px; background: orangered; border-radius: 50%}
+  }
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+   font: monospace;
+}
+.container {
+    background-color: beige;
+    /* padding: 20px; */
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: teal;
+    margin: 1px;
+    border-radius: 10px;
+    transition: 0.5s;
+    border: 1px solid teal;
+    box-shadow: 5px 5px #888888;
+    }
+.box:hover { 
+    border-color: turquoise; 
+}
+#icon{
+    animation: icon-animation 5s infinite;
+    font-family: 'Noto Nastaliq Urdu', serif;
+    /* position:relative;
+    bottom: 0px;
+    right: 0px; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
