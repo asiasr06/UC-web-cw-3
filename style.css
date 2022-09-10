@@ -37,6 +37,7 @@ h1{
     }
 .box:hover { 
     border-color: turquoise; 
+    background-color: #888888;
 }
 #icon{
     animation: icon-animation 5s infinite;
